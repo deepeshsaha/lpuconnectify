@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="lpuconnectify:war exploded">
+    <output-path>$PROJECT_DIR$/target/lpuconnectify-1.0</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="lpuconnectify/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="lpuconnectify" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.jboss.resteasy:jaxrs-api:2.1.0.GA" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongo-java-driver:2.10.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
